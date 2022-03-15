@@ -1,3 +1,4 @@
+# ScheduleBuddy: Your Schedule Planner:
 How To Install requirements :
  pip install -r requirements.txt
 
@@ -11,4 +12,3 @@ How to Run:
 (2) Run python app.py
 
 (3) How to use the APIs :
-
