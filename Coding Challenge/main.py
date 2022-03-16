@@ -1,7 +1,7 @@
 # Write a program that prints all the integers from 1 to 100 except the multiples of 10.
 
 for n in range(1, 100):
-    if nu % 10 != 0:
+    if n % 10 != 0:
         print(n)
 
 # Print the letters of "YoungWonks" in different lines using a for loop.
@@ -58,7 +58,7 @@ for k, v in names.items():
 # Tip: Use dictionary_name[key] to get the value of a key in a dictionary.
 
 fruits = {"Apples": 1, "Bananas": 10, "Strawberries": 4, "Mangoes": 6, "Tomatoes": 9}
-print(sum(fruits.values())
+print(sum(fruits.values()))
 
 # Use nested while loops to generate the Chess board as shown below. The print function must print only one character at a time.
 # BWBWBWBW
@@ -108,4 +108,3 @@ while True:
         l.append(v)
     if len(l)==5:
         break
-print(l)
