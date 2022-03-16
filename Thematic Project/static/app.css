@@ -1,0 +1,14 @@
+navbar-nav > li{
+            margin-left:60px;
+            margin-right:60px;
+          }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: right;
+}
