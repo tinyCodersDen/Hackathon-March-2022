@@ -1,0 +1,21 @@
+.navbar-nav > li{
+            margin-left:60px;
+            margin-right:60px;
+          }
+.grid-container {
+    display: grid;
+    column-gap: 150px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .cropped {
+    width: 1900px; 
+    height: 550px; 
+    margin: auto;
+    overflow: hidden;
+    }
