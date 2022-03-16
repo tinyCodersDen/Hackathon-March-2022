@@ -1,7 +1,14 @@
 # Hackathon-March-2022
 
 Hello, this is repository for what I made in a hackathon in March 2022. My project is a to-do app, and I called it ScheduleBuddy. Check out the different features and don't forget to explore the project's independant API!
-## Instructions for running:
+## Coding Challenge:
+In the Coding Challenge folder, you will find the questions(commented) and the answers to those as solutions.
+Version: Python 3.9.6
+
+## Thematic Project:
+In this part of the project, you have to make a project in 12 Hours and it has to based off a theme. The theme for this hackathon was "Personal Organization". I made a schedule planner application for this project and feel free to check out the front end and the API of this project!
+
+### Instructions for running:
 First, you will need to install the required modules:
 ```shell
 pip install -r requirements.txt
