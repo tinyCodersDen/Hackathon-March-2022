@@ -1,8 +1,8 @@
 # Write a program that prints all the integers from 1 to 100 except the multiples of 10.
 
-for n in range(1, 100):
-    if n % 10 != 0:
-        print(n)
+for t in range(1,101):
+    if t%10!=0:
+        print(t)
 
 # Print the letters of "YoungWonks" in different lines using a for loop.
 
@@ -11,10 +11,10 @@ for l in "YoungWonks":
 
 # Using a while loop, print from 30 to 1.
 
-n = 30
-while n >=1:
-    print(n)
-    n -= 1
+x = 30
+while x>=1:
+    print(x)
+    x-=1
 
 # Create a list of five car names. Sort the list in alphabetical order and print the car names in different lines.
 
@@ -25,12 +25,10 @@ for c in sorted(l):
 # Create an empty list. Use the random module to put 10 random integers into the list. 
 # The integers should be in range from -100 to 25. Print the list.
 
-from random import randint
-
+import random
 l = []
-
-for n in range(10):
-    l.append(randint(-100, 25))
+for t in range(10):
+    l.append(random.randint(-100,25))
 print(l)
 
 # Create the following list: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Use nested loops to print the content of this 2D list in the form of rows and columns as shown below.
@@ -48,17 +46,19 @@ for i in l:
 # Create a dictionary to store the names of four people as keys and their age as values. 
 # Print the names of only those people who are at least 16 years of age.
 
-names = {"John": 10, "Beth": 29, "Doe": 78, "Adam": 16}
-
-for k, v in names.items():
-    if v >= 16:
+dict1 = {'Suchin':32,'Vishal':42,"Prajwal":3,"Duck":15}
+for k,v in dict1.items():
+    if v>=16:
         print(k)
 
 # Create a dictionary with the names of five fruits as keys and their respective prices as values. Find the sum of all the prices and print it.
 # Tip: Use dictionary_name[key] to get the value of a key in a dictionary.
 
-fruits = {"Apples": 1, "Bananas": 10, "Strawberries": 4, "Mangoes": 6, "Tomatoes": 9}
-print(sum(fruits.values()))
+dict1 = {"Apple":1.25,"banana":2.3,'pear':9,'watermelon':20,'Kiwi':5.6}
+s1 = 0
+for k,v in dict1.items():
+    s1+=v
+print(s1)
 
 # Use nested while loops to generate the Chess board as shown below. The print function must print only one character at a time.
 # BWBWBWBW
@@ -108,3 +108,4 @@ while True:
         l.append(v)
     if len(l)==5:
         break
+print(l)
